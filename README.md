@@ -3,7 +3,7 @@
 EUROCONTROL defines a simple binary container format (ASTERIX) that is used in the ATC business for exchanging air traffic service information
 such as track data, datalink message, station monitoring and control information.
 
-Decoding a given Data Block can be a hazzle as you would have to implement all the Data Item de-coding logic and you would have to
+Decoding a given Data Block can be a hassle as you would have to implement all the Data Item de-coding logic and you would have to
 grasp all the semantics of the received data.
 
 However, if you only want to check whether or not the given binary message is valid/complete you would just have to quick-check the
@@ -55,13 +55,14 @@ EUROCONTROL does not provide a similar technical solution for defining the messa
 
 I think it should be doable to create a protobuf-like project on top of the ASTERIX binary message format. Sounds like fun to me, any takers?
 
-Since I am only interested in a quick way to validate recevied binary ASTERIX messages I will just code a simple mechanism which allows me to do exactly that.
+Since I am only interested in a quick way to validate recieved binary ASTERIX messages I will just code a simple mechanism which allows me to do exactly that.
+
 
 ## So... what does this POC do?
 
 In a nutshell:
-- I have translated the UAP from the CAt34 spec to a machine readable json representation
-- I have created a dummy cat34 message. The content of the Data Items is nonsense. But the structure should be valid.
+- I have translated the UAP from the Cat34 spec to a machine readable json representation
+- I have created a dummy Cat34 message. The content of the Data Items is nonsense. But the structure should be valid.
 - There is this python script that will use the UAP to walk over the given message, assuming the sizes of the Data Items from the UAP
 - The message is valid if the size of the message matches exactly the expected size from the UAP
 
