@@ -1,0 +1,114 @@
+{
+	"Item010": {
+		"Type": "Fixed",
+		"Length": "2"
+	},
+	"Item000": {
+		"Type": "Fixed",
+		"Length": "1"
+	},
+	"Item030": {
+		"Type": "Fixed",
+		"Length": "3"
+	},
+	"Item020": {
+		"Type": "Fixed",
+		"Length": "1"
+	},
+	"Item041": {
+		"Type": "Fixed",
+		"Length": "2"
+	},
+	"Item050": {
+		"Type": "Compound",
+		"Subfields": {
+			"COM": {
+				"Type": "Fixed",
+				"Length": "1"
+			},
+			"Spare1": {
+				"Type": "Fixed",
+				"Length": "0"
+			},
+			"Spare2": {
+				"Type": "Fixed",
+				"Length": "0"
+			},
+			"PSR": {
+				"Type": "Fixed",
+				"Length": "1"
+			},
+			"SSR": {
+				"Type": "Fixed",
+				"Length": "1"
+			},
+			"MDS": {
+				"Type": "Fixed",
+				"Length": "2"
+			},
+			"Spare3": {
+				"Type": "Fixed",
+				"Length": "0"
+			}
+		}
+	},
+	"Item060": {
+		"Type": "Compound",
+		"Subfields": {
+			"COM": {
+				"Type": "Fixed",
+				"Length": "1"
+			},
+			"Spare1": {
+				"Type": "Fixed",
+				"Length": "0"
+			},
+			"Spare2": {
+				"Type": "Fixed",
+				"Length": "0"
+			},
+			"PSR": {
+				"Type": "Fixed",
+				"Length": "1"
+			},
+			"SSR": {
+				"Type": "Fixed",
+				"Length": "1"
+			},
+			"MDS": {
+				"Type": "Fixed",
+				"Length": "1"
+			},
+			"Spare3": {
+				"Type": "Fixed",
+				"Length": "0"
+			}
+		}
+	},
+	"Item070": {
+		"Type": "Rep",
+		"Length": "2"
+	},
+	"Item100": {
+		"Type": "Fixed",
+		"Length": "8"
+	},
+	"Item110": {
+		"Type": "Fixed",
+		"Length": "1"
+	},
+	"Item120": {
+		"Type": "Fixed",
+		"Length": "8"
+	},
+	"Item090": {
+		"Type": "Fixed",
+		"Length": "2"
+	},
+	"REF": {
+		"Type": "REF"
+	},
+	"SPF": {
+		"Type": "SPF"
+	}
+}
