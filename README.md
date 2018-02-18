@@ -55,7 +55,7 @@ EUROCONTROL does not provide a similar technical solution for defining the messa
 
 I think it should be doable to create a protobuf-like project on top of the ASTERIX binary message format. Sounds like fun to me, any takers?
 
-Since I am only interested in a quick way to validate recieved binary ASTERIX messages I will just code a simple mechanism which allows me to do exactly that.
+Since I am only interested in a quick way to validate received binary ASTERIX messages I will just code a simple mechanism which allows me to do exactly that.
 
 
 ## So... what does this POC do?
@@ -67,7 +67,7 @@ In a nutshell:
 - The message is valid if the size of the message matches exactly the expected size from the UAP
 
 
-### Sample invocation
+### Exemplary invocation
 
 ```
 dgrafe@amd64-X2:~/git/asterix-validator$ ./astval.py testdata/cat34.bin 
